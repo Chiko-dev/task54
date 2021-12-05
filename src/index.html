@@ -8,11 +8,23 @@
       content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: repeat(3, auto);
+            grid-column-gap: 3rem;
+            align-items: center;
+        }
+    </style>
   </head>
   <body>
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
+    </div>
+    <div class="container">
+
     </div>
   </body>
 </html>
